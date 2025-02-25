@@ -1,0 +1,85 @@
+.conatiner2 {
+
+  /* display: -ms-inline-grid; */
+  max-width: 500px;
+  height: 1000px;
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(144, 9, 9, 0.1);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+}
+
+.left {
+  grid-column: 1;
+  float: left;
+  margin-right: 350px;
+}
+
+.right {
+  grid-column: 2;
+  margin-bottom: 200px;
+}
+
+/* form{
+  float: left;
+  margin-right: 500px;
+} */
+input,
+button {
+  width: 455px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-size: medium;
+  font-weight: 500;
+  /* border-radius: 50%;/ */
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+
+button:hover {
+  cursor: pointer;
+  background-color: #40e0d0;
+
+}
+
+.buttonsMoves {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.Submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}

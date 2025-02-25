@@ -1,0 +1,60 @@
+.text-center-nav {
+    text-align: center;
+  }
+
+  .navbar-nav {
+  justify-content: center;
+}
+
+.nav-item {
+  margin-left: 20px; /* add some margin between items */
+  margin-right: 20px;
+}
+
+
+
+/* left div css  */
+.left{
+  float: left;
+  font-size: 10rem;
+  text-transform: capitalize;
+}
+
+.right{
+  float: right;
+  justify-content: end;
+}
+.a {
+  color: blueviolet;
+}
+
+#element {
+  color: blueviolet;
+}   
+
+
+/* for img   */
+
+.img-circle{
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+
+}
+
+.img1{
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.my{
+   width: "80%";
+    height: "500px"; 
+    margin: "auto";
+}
+.float.left{
+  float: left;
+  margin-right:20px ;
+}
